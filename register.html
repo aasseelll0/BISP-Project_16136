@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register - Substance</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <nav>
+    <div class="container">
+      <a href="index.html" class="nav-brand">Substance</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="questionnaire.html">Quiz</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="register.html">Register</a></li>
+        <li><a href="cart.html" class="nav-btn">Cart</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  
+  <div class="form-container" style="margin-top: 3rem; margin-bottom: 3rem;">
+    <h1>Create Your Account</h1>
+    <p style="text-align: center; color: #5d4e47; margin-bottom: 2rem;">Join Substance to get personalized skincare recommendations</p>
+    
+    <form id="register-form">
+      <div class="form-group">
+        <label for="fullname">Full Name</label>
+        <input type="text" id="fullname" name="fullname" required>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required>
+        <small style="color: #5d4e47; display: block; margin-top: 0.5rem;">At least 8 characters long</small>
+      </div>
+
+      <div class="form-group">
+        <label for="confirm-password">Confirm Password</label>
+        <input type="password" id="confirm-password" name="confirm-password" required>
+      </div>
+
+      <div class="form-group" style="margin-bottom: 2rem;">
+        <label style="display: flex; align-items: center; font-weight: 400;">
+          <input type="checkbox" required style="width: auto; margin-right: 0.5rem;">
+          I agree to the Terms of Service and Privacy Policy
+        </label>
+      </div>
+
+      <button type="submit" class="btn-primary" style="width: 100%; padding: 1rem; margin-bottom: 1rem;">Create Account</button>
+    </form>
+
+    <p style="text-align: center; color: #5d4e47;">
+      Already have an account? <a href="login.html" style="color: var(--primary); text-decoration: none; font-weight: 600;">Login here</a>
+    </p>
+  </div>
+
+  
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h4>Substance</h4>
+        <p>Your personalized skincare journey starts here</p>
+      </div>
+      <div class="footer-section">
+        <h4>Quick Links</h4>
+        <a href="products.html">Products</a>
+        <a href="questionnaire.html">Take Quiz</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-section">
+        <h4>Account</h4>
+        <a href="login.html">Login</a>
+        <a href="register.html">Register</a>
+        <a href="cart.html">My Cart</a>
+      </div>
+      <div class="footer-section">
+        <h4>Support</h4>
+        <a href="contact.html">Contact Us</a>
+        <a href="#">FAQs</a>
+        <a href="#">Shipping Info</a>
+      </div>
+    </div>
+    <p>&copy; 2024 Substance. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

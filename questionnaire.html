@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skincare Quiz - Substance</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <nav>
+    <div class="container">
+      <a href="index.html" class="nav-brand">Substance</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="questionnaire.html">Quiz</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="register.html">Register</a></li>
+        <li><a href="cart.html" class="nav-btn">Cart</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  
+  <div class="form-container">
+    <h1>Find Your Perfect Skincare Routine</h1>
+    <p style="text-align: center; color: #5d4e47; margin-bottom: 2rem;">Answer these 5 quick questions to get personalized recommendations</p>
+    
+    <form id="quiz-form">
+      
+      <div class="question-group">
+        <h3>Q1: What is your skin type?</h3>
+        <div class="radio-group">
+          <label class="radio-option">
+            <input type="radio" name="skin-type" value="dry" required>
+            <span>Dry</span>
+          </label>
+          <label class="radio-option">
+            <input type="radio" name="skin-type" value="oily" required>
+            <span>Oily</span>
+          </label>
+          <label class="radio-option">
+            <input type="radio" name="skin-type" value="combination" required>
+            <span>Combination</span>
+          </label>
+          <label class="radio-option">
+            <input type="radio" name="skin-type" value="sensitive" required>
+            <span>Sensitive</span>
+          </label>
+          <label class="radio-option">
+            <input type="radio" name="skin-type" value="normal" required>
+            <span>Normal</span>
+          </label>
+        </div>
+      </div>
+
+      
+      <div class="question-group">
+        <h3>Q2: What is your main skin concern?</h3>
+        <div class="radio-group">
+          <label class="radio-option">
+            <input type="radio" name="skin-concern" value="acne" required>
+            <span>Acne & Breakouts</span>
+          </label>
+          <label class="radio-option">
+            <input type="radio" name="skin-concern" value="ageing" required>
+            <span>Ageing & Fine Lines</span>
+          </label>
+          <label class="radio-option">
+            <input type="radio" name="skin-concern" value="pigmentation" required>
+            <span>Pigmentation & Dark Spots</span>
+          </label>
+          <label class="radio-option">
+            <input type="radio" name="skin-concern" value="dryness" required>
+            <span>Dryness & Flakiness</span>
+          </label>
+        </div>
+      </div>
+
+      
+      <div class="question-group">
+        <h3>Q3: How old are you?</h3>
+        <div class="radio-group">
+          <label class="radio-option">
+            <input type="radio" name="age" value="under-18" required>
+            <span>Under 18</span>
+          </label>
+          <label class="radio-option">
+            <input type="radio" name="age" value="18-25" required>
+            <span>18-25</span>
+          </label>
+          <label class="radio-option">
+            <input type="radio" name="age" value="26-35" required>
+            <span>26-35</span>
+          </label>
+          <label class="radio-option">
+            <input type="radio" name="age" value="36-plus" required>
+            <span>36+</span>
+          </label>
+        </div>
+      </div>
+
+      
+      <div class="question-group">
+        <h3>Q4: How often do you currently use skincare?</h3>
+        <div class="radio-group">
+          <label class="radio-option">
+            <input type="radio" name="frequency" value="never" required>
+            <span>Never - Just starting out</span>
+          </label>
+          <label class="radio-option">
+            <input type="radio" name="frequency" value="sometimes" required>
+            <span>Sometimes - A few times a week</span>
+          </label>
+          <label class="radio-option">
+            <input type="radio" name="frequency" value="daily" required>
+            <span>Daily - Morning and evening</span>
+          </label>
+        </div>
+      </div>
+
+      
+      <div class="question-group">
+        <h3>Q5: What is your budget?</h3>
+        <div class="radio-group">
+          <label class="radio-option">
+            <input type="radio" name="budget" value="low" required>
+            <span>💰 Low ($20-50/month)</span>
+          </label>
+          <label class="radio-option">
+            <input type="radio" name="budget" value="medium" required>
+            <span>💰💰 Medium ($50-150/month)</span>
+          </label>
+          <label class="radio-option">
+            <input type="radio" name="budget" value="high" required>
+            <span>💰💰💰 High ($150+/month)</span>
+          </label>
+        </div>
+      </div>
+
+      <button type="submit" class="btn-primary" style="width: 100%; margin-top: 2rem; padding: 1rem;">Get My Personalized Routine →</button>
+    </form>
+  </div>
+
+  
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h4>Substance</h4>
+        <p>Your personalized skincare journey starts here</p>
+      </div>
+      <div class="footer-section">
+        <h4>Quick Links</h4>
+        <a href="products.html">Products</a>
+        <a href="questionnaire.html">Take Quiz</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-section">
+        <h4>Account</h4>
+        <a href="login.html">Login</a>
+        <a href="register.html">Register</a>
+        <a href="cart.html">My Cart</a>
+      </div>
+      <div class="footer-section">
+        <h4>Support</h4>
+        <a href="contact.html">Contact Us</a>
+        <a href="#">FAQs</a>
+        <a href="#">Shipping Info</a>
+      </div>
+    </div>
+    <p>&copy; 2024 Substance. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping Cart - Substance</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <nav>
+    <div class="container">
+      <a href="index.html" class="nav-brand">Substance</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="questionnaire.html">Quiz</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="register.html">Register</a></li>
+        <li><a href="cart.html" class="nav-btn">Cart</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  
+  <div style="padding: 3rem 2rem;">
+    <div class="container">
+      <h1 style="color: var(--dark); margin-bottom: 2rem;">Your Shopping Cart</h1>
+
+      <div style="display: grid; grid-template-columns: 1fr 350px; gap: 2rem;">
+        
+        <div>
+          <div style="background-color: var(--white); border-radius: 10px; overflow: hidden; box-shadow: var(--shadow);">
+            <table style="width: 100%;">
+              <thead>
+                <tr>
+                  <th>Product</th>
+                  <th>Qty</th>
+                  <th>Price</th>
+                  <th>Total</th>
+                  <th>Action</th>
+                </tr>
+              </thead>
+              <tbody id="cart-body">
+                <tr style="text-align: center;">
+                  <td colspan="5" style="padding: 2rem; color: #5d4e47;">Your cart is empty. <a href="products.html" style="color: var(--primary); text-decoration: none;">Continue shopping</a></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        
+        <div>
+          <div style="background-color: var(--white); border-radius: 10px; padding: 2rem; box-shadow: var(--shadow); position: sticky; top: 100px;">
+            <h2 style="color: var(--dark); font-size: 1.3rem; margin-bottom: 1.5rem;">Order Summary</h2>
+            
+            <div style="margin-bottom: 1.5rem; padding-bottom: 1.5rem; border-bottom: 1px solid var(--subtle-gray);">
+              <div style="display: flex; justify-content: space-between; margin-bottom: 0.8rem;">
+                <span style="color: #5d4e47;">Subtotal</span>
+                <span id="subtotal" style="color: var(--dark); font-weight: 600;">$0.00</span>
+              </div>
+              <div style="display: flex; justify-content: space-between; margin-bottom: 0.8rem;">
+                <span style="color: #5d4e47;">Tax (10%)</span>
+                <span style="color: var(--dark); font-weight: 600;">Auto calculated</span>
+              </div>
+              <div style="display: flex; justify-content: space-between; margin-bottom: 0.8rem;">
+                <span style="color: #5d4e47;">Shipping</span>
+                <span style="color: var(--primary); font-weight: 600;">Free</span>
+              </div>
+            </div>
+
+            <div style="display: flex; justify-content: space-between; margin-bottom: 2rem; font-size: 1.2rem;">
+              <span style="color: var(--dark); font-weight: 700;">Total</span>
+              <span id="total" style="color: var(--primary); font-weight: 700;">$0.00</span>
+            </div>
+
+            <button class="btn-primary" style="width: 100%; padding: 1rem; margin-bottom: 1rem; cursor: pointer;">Proceed to Checkout</button>
+            <a href="products.html" class="btn-secondary" style="width: 100%; padding: 1rem; text-align: center;">Continue Shopping</a>
+          </div>
+        </div>
+      </div>
+
+      
+      <div id="empty-cart-message" style="display: none; text-align: center; padding: 4rem 2rem;">
+        <h2 style="color: var(--dark); margin-bottom: 1rem;">Your cart is empty</h2>
+        <p style="color: #5d4e47; margin-bottom: 2rem;">Discover our curated collection of skincare products</p>
+        <a href="questionnaire.html" class="btn-primary">Take Quiz for Recommendations</a>
+      </div>
+    </div>
+  </div>
+
+  
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h4>Substance</h4>
+        <p>Your personalized skincare journey starts here</p>
+      </div>
+      <div class="footer-section">
+        <h4>Quick Links</h4>
+        <a href="products.html">Products</a>
+        <a href="questionnaire.html">Take Quiz</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-section">
+        <h4>Account</h4>
+        <a href="login.html">Login</a>
+        <a href="register.html">Register</a>
+        <a href="cart.html">My Cart</a>
+      </div>
+      <div class="footer-section">
+        <h4>Support</h4>
+        <a href="contact.html">Contact Us</a>
+        <a href="#">FAQs</a>
+        <a href="#">Shipping Info</a>
+      </div>
+    </div>
+    <p>&copy; 2024 Substance. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

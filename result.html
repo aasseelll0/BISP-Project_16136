@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Routine - Substance</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <nav>
+    <div class="container">
+      <a href="index.html" class="nav-brand">Substance</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="questionnaire.html">Quiz</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="register.html">Register</a></li>
+        <li><a href="cart.html" class="nav-btn">Cart</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  
+  <div style="padding: 3rem 2rem; background-color: var(--white); margin-top: 2rem; margin-bottom: 2rem;">
+    <div class="container">
+      <h1 style="text-align: center; color: var(--dark); margin-bottom: 1.5rem;">Your Personalized Skincare Routine</h1>
+      <p style="text-align: center; color: #5d4e47; font-size: 1.05rem; margin-bottom: 2rem;">Based on your unique skin profile, we've selected the perfect products for you</p>
+      
+      
+      <div class="routine-section">
+        <h2> Morning Routine</h2>
+        <p style="color: #5d4e47; margin-bottom: 1.5rem;">Start your day with a refreshing morning routine to prepare your skin</p>
+        <div class="routine-products" id="morning-routine">
+          <div class="card">
+            <div class="card-image">Product Image</div>
+            <p class="card-brand">Essence Pure</p>
+            <h3>Gentle Cleanser</h3>
+            <p class="card-price">$24.99</p>
+            <p style="color: #5d4e47; margin-bottom: 1rem; font-size: 0.9rem;">Soft, non-stripping cleanser for daily use</p>
+            <button class="btn-primary add-to-cart" data-product="Gentle Cleanser" data-price="24.99">Add to Cart</button>
+          </div>
+          <div class="card">
+            <div class="card-image">Product Image</div>
+            <p class="card-brand">Hydra Glow</p>
+            <h3>Hydrating Toner</h3>
+            <p class="card-price">$22.99</p>
+            <p style="color: #5d4e47; margin-bottom: 1rem; font-size: 0.9rem;">Balancing toner for hydration and prep</p>
+            <button class="btn-primary add-to-cart" data-product="Hydrating Toner" data-price="22.99">Add to Cart</button>
+          </div>
+          <div class="card">
+            <div class="card-image">Product Image</div>
+            <p class="card-brand">Sun Guard</p>
+            <h3>SPF 50 Sunscreen</h3>
+            <p class="card-price">$28.99</p>
+            <p style="color: #5d4e47; margin-bottom: 1rem; font-size: 0.9rem;">Daily sun protection with broad spectrum SPF 50</p>
+            <button class="btn-primary add-to-cart" data-product="SPF 50 Sunscreen" data-price="28.99">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="routine-section">
+        <h2> Evening Routine</h2>
+        <p style="color: #5d4e47; margin-bottom: 1.5rem;">Give your skin the care it deserves at night for maximum regeneration</p>
+        <div class="routine-products" id="evening-routine">
+          <div class="card">
+            <div class="card-image">Product Image</div>
+            <p class="card-brand">Essence Pure</p>
+            <h3>Deep Cleansing Oil</h3>
+            <p class="card-price">$32.99</p>
+            <p style="color: #5d4e47; margin-bottom: 1rem; font-size: 0.9rem;">Luxurious cleansing oil to remove makeup and impurities</p>
+            <button class="btn-primary add-to-cart" data-product="Deep Cleansing Oil" data-price="32.99">Add to Cart</button>
+          </div>
+          <div class="card">
+            <div class="card-image">Product Image</div>
+            <p class="card-brand">Bio Labs</p>
+            <h3>Retinol Night Serum</h3>
+            <p class="card-price">$45.99</p>
+            <p style="color: #5d4e47; margin-bottom: 1rem; font-size: 0.9rem;">Powerful night serum with retinol for anti-aging</p>
+            <button class="btn-primary add-to-cart" data-product="Retinol Night Serum" data-price="45.99">Add to Cart</button>
+          </div>
+          <div class="card">
+            <div class="card-image">Product Image</div>
+            <p class="card-brand">Bio Labs</p>
+            <h3>Night Repair Cream</h3>
+            <p class="card-price">$42.99</p>
+            <p style="color: #5d4e47; margin-bottom: 1rem; font-size: 0.9rem;">Rich moisturizing cream for overnight renewal</p>
+            <button class="btn-primary add-to-cart" data-product="Night Repair Cream" data-price="42.99">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+
+      
+      <div style="margin-top: 3rem;">
+        <h2 style="color: var(--dark); margin-bottom: 2rem; text-align: center;">💡 Skincare Tips</h2>
+        <div id="skincare-tips" class="grid grid-3">
+          
+        </div>
+      </div>
+
+      
+      <div style="text-align: center; margin-top: 3rem;">
+        <a href="cart.html" class="btn-primary" style="padding: 1rem 2rem; font-size: 1.05rem;">View Cart & Proceed to Checkout</a>
+      </div>
+    </div>
+  </div>
+
+  
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h4>Substance</h4>
+        <p>Your personalized skincare journey starts here</p>
+      </div>
+      <div class="footer-section">
+        <h4>Quick Links</h4>
+        <a href="products.html">Products</a>
+        <a href="questionnaire.html">Take Quiz</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-section">
+        <h4>Account</h4>
+        <a href="login.html">Login</a>
+        <a href="register.html">Register</a>
+        <a href="cart.html">My Cart</a>
+      </div>
+      <div class="footer-section">
+        <h4>Support</h4>
+        <a href="contact.html">Contact Us</a>
+        <a href="#">FAQs</a>
+        <a href="#">Shipping Info</a>
+      </div>
+    </div>
+    <p>&copy; 2024 Substance. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
